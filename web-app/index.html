@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo-txt">
+      <div class="logo-img">
+        <img src="./img/logo.svg" alt="POSSE">
+      </div>
+      <h2 class="header-txt">4th week</h2>
+    </div>
+    <button class="header-button" onclick="clickBtn()">記録・投稿</button>
+  </header>
+  <main>
+    <div class="wrapper">
+      <section class="time-bar">
+        <div class="time">
+          <div class="time-interior">
+            <h3>Today</h3>
+            <h2>3</h2>
+            <p>hour</p>
+          </div>
+          <div class="time-interior">
+            <h3>Month</h3>
+            <h2>120</h2>
+            <p>hour</p>
+          </div>
+          <div class="time-interior">
+            <h3>Total</h3>
+            <h2>1348</h2>
+            <p>hour</p>
+          </div>
+        </div>
+        <div class="bar-graph">
+          <!-- グラフ -->
+        </div>
+      </section>
+      <section class="pie-chart">
+        <div class="pie-interior">
+          <h2>学習言語</h2>
+          <div></div>
+        </div>
+        <div class="pie-interior">
+          <h2>学習コンテンツ</h2>
+          <div></div>
+        </div>
+      </section>
+    </div>
+    <div class="form" id="form">
+      <div class="form-wrapper">
+        
+        <button class="modal_close"><span class="batsu"></span></button>
+
+        <div class="form-left">
+          <div class="form-date">
+            <h2>学習日</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th id="prev">&laquo;</th>
+                  <th id="title" colspan="5">2020/05</th>
+                  <th id="next">&raquo;</th>
+                </tr>
+                <tr>
+                  <th>Sun</th>
+                  <th>Mon</th>
+                  <th>Tue</th>
+                  <th>Wed</th>
+                  <th>Thu</th>
+                  <th>Fri</th>
+                  <th>Sat</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td id="today" colspan="7">
+                    Today
+                  </td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+          <div class="form-content">
+            <h2>学習コンテンツ（複数選択可)</h2>
+            <input type="checkbox" id="" name="">
+            <label for="" class="">N予備校</label>
+            <input type="checkbox" id="" name="">
+            <label for="" class="">ドットインストール</label><br>
+            <input type="checkbox" id="" name="">
+            <label for="" class="">POSSE課題</label>
+
+          </div>
+          <div class="form-lan">
+            <h2>学習言語（複数選択可）</h2>
+            <input type="checkbox" id="" name=""><label for="" class="">HTML</label>
+            <input type="checkbox" id="" name=""><label for="" class="">CSS</label>
+            <input type="checkbox" id="" name=""><label for="" class="">JavaScript</label><br>
+            <input type="checkbox" id="" name="">PHP<label for="" class="">Laravel</label>
+            <input type="checkbox" id="" name="">SQL<label for="" class="">SHELL</label><br>
+            <input type="checkbox" id="" name="">情報システム基礎知識（その他）<label for="" class=""></label>
+
+
+          </div>
+        </div>
+        <div class="form-right">
+          <div class="form-time">学習時間</div>
+          <div class="form-twitter">Twitter用コメント</div>
+        </div>
+      </div>
+      <div>
+        <button class="form-button">記録・投稿</button>
+      </div>
+    </div>
+    <!-- <div id="loading">
+      <div id="loading-main"></div> -->
+    </div>
+  </main>
+</body>
+
+</html>
